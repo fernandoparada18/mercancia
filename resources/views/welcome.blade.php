@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>sistema de Control de Mercancia</title>
+        <title>Sistema de Control de Mercancia</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -80,6 +80,9 @@
             @endif
 
             <div class="content">
+                <div class="m-b-md">
+                    <img src="{{ asset('images/logo.png') }}" alt="Sistema de Cuadre de Caja" width="256px">
+                </div>
                 <div class="title m-b-md">
                     >_Mercancia
                 </div>

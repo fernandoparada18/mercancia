@@ -1,14 +1,27 @@
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
-@import 'variables';
+//@import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+//Bootstrap-DateTimePicker
+@import '~eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.css';
+
+//Theme style CoreUI
+@import '~@coreui/coreui/scss/coreui';
+
+//Icons CoreUI
+@import '~@coreui/icons/scss/coreui-icons';
+
+//Font awesome
+@import '~font-awesome/scss/font-awesome';
+
+//Simple Line Icons
+@import '~simple-line-icons/scss/simple-line-icons';
+
+//Flag icon
+@import '~flag-icon-css/css/flag-icon';
