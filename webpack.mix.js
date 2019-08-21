@@ -12,6 +12,10 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+   .sass('resources/sass/app.scss', 'public/css')
+   .copyDirectory('node_modules/datatables.net', 'public/vendor/datatables.net')
+   .copyDirectory('node_modules/datatables.net-bs4', 'public/vendor/datatables.net-bs4')
+   .copyDirectory('node_modules/datatables.net-buttons', 'public/vendor/datatables.net-buttons')
+   .copyDirectory('node_modules/datatables.net-buttons-bs4', 'public/vendor/datatables.net-buttons-bs4');
 
 mix.browserSync('http://mercancia.test');

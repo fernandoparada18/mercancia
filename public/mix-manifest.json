@@ -1,4 +1,8 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/vendor/datatables.net": "/vendor/datatables.net",
+    "/vendor/datatables.net-bs4": "/vendor/datatables.net-bs4",
+    "/vendor/datatables.net-buttons": "/vendor/datatables.net-buttons",
+    "/vendor/datatables.net-buttons-bs4": "/vendor/datatables.net-buttons-bs4"
 }
