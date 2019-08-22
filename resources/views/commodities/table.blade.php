@@ -6,9 +6,13 @@
     <thead>
         <tr>
             <th>Código</th>
-            <th>Descripción del Producto</th>
+            <th>
+                <div style="width:200px!Important;">Descripción del Producto</div>
+            </th>
             <th>No. Factura</th>
-            <th>Fecha</th>
+            <th>
+                <div style="width:64px!Important;">Fecha</div>
+            </th>
             <th>Qty</th>
             <th>Unit</th>
             <th>Unit Price US$</th>
@@ -22,10 +26,10 @@
             <th>Gastos de Aduana</th>
             <th>Gasto financiamiento proveedores</th>
             <th>Pérdida por deterioro</th>
-            <th>Costo Unico - RD$/U.</th>
+            <th>Costo Unico RD$/US$</th>
             <th>Venta al Mayor</th>
-            <th>Venta al Detal Tienda</th>
-            <th>Venta al Mayor Tienda</th>
+            <th>Venta Detal Tienda</th>
+            <th>Venta Mayor Tienda</th>
         </tr>
     </thead>
 </table>

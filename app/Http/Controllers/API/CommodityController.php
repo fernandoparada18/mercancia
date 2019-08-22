@@ -6,6 +6,7 @@ use App\Models\Commodity;
 use App\Repositories\CommodityRepository;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController;
+use App\Http\Resources\CommodityResource;
 use InfyOm\Generator\Criteria\LimitOffsetCriteria;
 use Prettus\Repository\Criteria\RequestCriteria;
 use Response;
@@ -35,8 +36,8 @@ class CommodityController extends AppBaseController
     public function index(Request $request)
     {
         $commodities = $this->commodityRepository->all();
-
-        return datatables($commodities)->toJson();
+        $resource = CommodityResource::collection($commodities);
+        return datatables()->of($resource)->toJson();
     }
 
 }

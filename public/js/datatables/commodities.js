@@ -5,9 +5,8 @@ $(document).ready(function() {
         fixedColumns: {
             leftColumns: 2
         },
-        columnDefs: [
-            { width: '1000px', targets: 1 }
-        ],
+        lengthMenu: [ [10, 25, 50, 100, -1], [10, 25, 50, 100, 'Todo'] ],
+        order: [[ 3, 'asc' ]],
         processing: true,
         serverSide: true,
         ajax: "api/commodities",
@@ -16,23 +15,23 @@ $(document).ready(function() {
             { data: 'description_product'},
             { data: 'number_invoice'},
             { data: 'date_invoice'},
-            { data: 'qty'},
-            { data: 'unit'},
-            { data: 'unit_price_usd'},
-            { data: 'ctns'},
-            { data: 'pcs_per_package'},
-            { data: 'exchange_rate'},
-            { data: 'base_fob_without_lien'},
-            { data: 'lien'},
-            { data: 'selective'},
-            { data: 'safe_and_trasport'},
-            { data: 'customs_fees'},
-            { data: 'provider_expenses'},
-            { data: 'impairment_loss'},
-            { data: 'unique_cost'},
-            { data: 'wholesale'},
-            { data: 'retail_store'},
-            { data: 'wholesale_store'}
+            { data: 'qty', searchable: false},
+            { data: 'unit', searchable: false},
+            { data: 'unit_price_usd', searchable: false},
+            { data: 'ctns', searchable: false},
+            { data: 'pcs_per_package', searchable: false},
+            { data: 'exchange_rate', searchable: false},
+            { data: 'base_fob_without_lien', searchable: false},
+            { data: 'lien', searchable: false},
+            { data: 'selective', searchable: false},
+            { data: 'safe_and_trasport', searchable: false},
+            { data: 'customs_fees', searchable: false},
+            { data: 'provider_expenses', searchable: false},
+            { data: 'impairment_loss', searchable: false},
+            { data: 'unique_cost', searchable: false},
+            { data: 'wholesale', searchable: false},
+            { data: 'retail_store', searchable: false},
+            { data: 'wholesale_store', searchable: false}
         ],
         language: {
             decimal:        ",",
@@ -48,8 +47,6 @@ $(document).ready(function() {
             search:         "Buscar:",
             zeroRecords:    "No se encontraron registros coincidentes",
             paginate: {
-                first:      "Primero",
-                last:       "Ultimo",
                 next:       "Siguiente",
                 previous:   "Anterior"
             },
