@@ -4,5 +4,7 @@
     "/vendor/datatables.net": "/vendor/datatables.net",
     "/vendor/datatables.net-bs4": "/vendor/datatables.net-bs4",
     "/vendor/datatables.net-buttons": "/vendor/datatables.net-buttons",
-    "/vendor/datatables.net-buttons-bs4": "/vendor/datatables.net-buttons-bs4"
+    "/vendor/datatables.net-buttons-bs4": "/vendor/datatables.net-buttons-bs4",
+    "/vendor/datatables.net-fixedcolumns": "/vendor/datatables.net-fixedcolumns",
+    "/vendor/datatables.net-fixedcolumns-bs4": "/vendor/datatables.net-fixedcolumns-bs4"
 }

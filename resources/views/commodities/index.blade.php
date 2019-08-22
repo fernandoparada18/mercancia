@@ -2,7 +2,7 @@
 
 @section('content')
     <ol class="breadcrumb">
-        <li class="breadcrumb-item">Commodities</li>
+        <li class="breadcrumb-item">Mercancia</li>
     </ol>
     <div class="container-fluid">
         <div class="animated fadeIn">
@@ -12,8 +12,8 @@
                      <div class="card">
                          <div class="card-header">
                              <i class="fa fa-align-justify"></i>
-                             Commodities
-                             <a class="pull-right" href="{!! route('commodities.create') !!}"><i class="fa fa-plus-square fa-lg"></i></a>
+                             Mercancia
+                             <!-- <a class="pull-right" href="#"><i class="fa fa-plus-square fa-lg"></i></a> -->
                          </div>
                          <div class="card-body">
                              @include('commodities.table')

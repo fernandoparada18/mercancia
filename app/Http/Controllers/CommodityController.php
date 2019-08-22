@@ -30,9 +30,9 @@ class CommodityController extends AppBaseController
      * @param CommodityDataTable $commodityDataTable
      * @return Response
      */
-    public function index(CommodityDataTable $commodityDataTable)
+    public function index()
     {
-        return $commodityDataTable->render('commodities.index');
+        return view('commodities.index');
     }
 
     /**
